@@ -175,3 +175,15 @@
   input:hover {
     border: none ;
   }
+
+  @media (max-width:970px) { 
+    main {
+      background-image: url(/fundo.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+  }
